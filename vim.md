@@ -21,12 +21,9 @@
 * http://blog.outsider.ne.kr/518
 * set incsearch “searching 글자를 치는 도중 커서가 해당 글자로 자동으로 이동
 * set guifont=Courier\ 10\ Pitch\ 12
-* colorscheme koehler
- 
+* colorscheme koehler 
 * http://vim.wikia.com/wiki/Change_font
 * http://gypark.pe.kr/wiki/Vi%EB%A1%9C%EB%AC%B8%EC%9E%90%EC%97%B4%EC%B9%98%ED%99%98%ED%95%98%EA%B8%B0
-
-
 
 ### .vimrc 설정
 ```
