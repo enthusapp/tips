@@ -13,6 +13,7 @@
 ```sudo perf report```
 
 ### Ubuntu kernel upgrade
+* https://wiki.ubuntu.com/Kernel/LTSEnablementStack
 ```
 sudo apt-get install --install-recommends linux-generic-hwe-18.04 xserver-xorg-hwe-18.04 
 ```
