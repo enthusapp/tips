@@ -11,3 +11,8 @@
 3. Analyse your recording:
   
 ```sudo perf report```
+
+### Ubuntu kernel upgrade
+```
+sudo apt-get install --install-recommends linux-generic-hwe-18.04 xserver-xorg-hwe-18.04 
+```
