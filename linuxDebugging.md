@@ -17,3 +17,5 @@
 ```
 sudo apt-get install --install-recommends linux-generic-hwe-18.04 xserver-xorg-hwe-18.04 
 ```
+### repository 
+https://twpower.github.io/99-change-apt-get-source-server
