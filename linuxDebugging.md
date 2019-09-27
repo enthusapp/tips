@@ -19,3 +19,6 @@ sudo apt-get install --install-recommends linux-generic-hwe-18.04 xserver-xorg-h
 ```
 ### repository 
 https://twpower.github.io/99-change-apt-get-source-server
+
+### Ubuntu 에서 sudo 로 허가 거부되는 access 실행하는 방법
+sudo bash -c 'echo 0x8400082 > /sys/module/acpi/parameters/debug_layer'
