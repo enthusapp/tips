@@ -5,7 +5,7 @@
 https://stackoverflow.com/questions/3483163/how-do-i-halt-the-continuing-in-gdb
 
 ##### break
-* JLink manual 에서 발췌
+* reference: JLink manual
 ```
 (gdb) file C:/temp/Blinky.elf
 Reading symbols from C:/temp/Blinky.elf...done.
