@@ -6,6 +6,10 @@ https://stackoverflow.com/questions/3483163/how-do-i-halt-the-continuing-in-gdb
 
 ##### test memory
 https://sourceware.org/gdb/current/onlinedocs/gdb/Memory.html
+```
+(gdb) x 0x10000000
+0x1000020c:	0xffffffff
+```
 
 ##### break
 * reference: JLink manual
