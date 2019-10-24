@@ -4,6 +4,9 @@
 ##### stop continuing
 https://stackoverflow.com/questions/3483163/how-do-i-halt-the-continuing-in-gdb
 
+##### test memory
+https://sourceware.org/gdb/current/onlinedocs/gdb/Memory.html
+
 ##### break
 * reference: JLink manual
 ```
