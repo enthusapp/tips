@@ -15,7 +15,10 @@
 ### PDF 제작
 * https://calibre-ebook.com 설치
 * 명령어 `gitbook pdf` 실행
-* pdf 파일 경로 문서에 추가
+* pdf 파일 경로 문서에 추가, target 을 설정하지 않으면 제대로 이동하지 않음
+```
+<a href="seoulExternalLight_v1.0.pdf" target="_blank" >PDF 다운로드</a>
+```
 
 ### publish
 ```
