@@ -17,6 +17,13 @@
 * 명령어 `gitbook pdf` 실행
 * pdf 파일 경로 문서에 추가
 
+### publish
+```
+$ git checkout -b gh-pages // branch 가 이미 있으면 git checkout gh-pages
+$ cp -R ../_book/* .
+$ git clean -fx _book
+```
+
 ### Links
 * https://blog.chulgil.me/how-to-make-blog-using-github-5/
 * https://github.com/GitbookIO/gitbook
