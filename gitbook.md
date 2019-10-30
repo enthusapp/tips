@@ -22,6 +22,10 @@
 $ git checkout -b gh-pages // branch 가 이미 있으면 git checkout gh-pages
 $ cp -R ../_book/* .
 $ git clean -fx _book
+$ git add .
+$ git commit -sm "upload gh-pages"
+$ git push origin gh-pages
+$ git checkout master
 ```
 
 ### Links
