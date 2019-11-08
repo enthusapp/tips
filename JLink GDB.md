@@ -41,5 +41,5 @@ Breakpoint 1, main () at Src\main.c:38
 # JLink
 ##### JLink GDB Server Linux CLI
 ```
-$ JLinkGDBServer -if SWD -device Coretex-M4
+$ JLinkGDBServer -if SWD -device Cortex-M4
 ```
