@@ -22,8 +22,8 @@
 
 ### publish
 ```
-$ git checkout -b gh-pages // branch 가 이미 있으면 git checkout gh-pages
-$ cp -R ../_book/* .
+$ git checkout gh-pages // gh-pages branch 가 없을 경우 git checkout -b gh-pages
+$ cp -R ../_book/* . // Windows 환경에서는 파일 브라우져에서 덮어쓰기 사용
 $ git clean -fx _book
 $ git add .
 $ git commit -sm "upload gh-pages"
