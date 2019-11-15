@@ -1,4 +1,9 @@
-
+### .bashrc
+```
+LC_ALL=C
+export LC_ALL
+export XAUTHORITY=/home/enthus/.Xauthority
+```
 ### sshd_config
 ```
 $ sudo vim /etc/ssh/sshd_config
