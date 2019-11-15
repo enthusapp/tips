@@ -1,4 +1,6 @@
 ### 실행 명령어
+xeyes, gnome-calculator 는 되지만 gnome-terminal 만 안될때
+
 ```
 gnome-terminal --disable-factory
 ```
