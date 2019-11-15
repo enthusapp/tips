@@ -1,37 +1,24 @@
+### 실행 명령어
+```
+gnome-terminal --disable-factory
+```
+
 ### .bashrc
 ```
-LC_ALL=C
+LC_ALL=$LANG
 export LC_ALL
 export XAUTHORITY=/home/enthus/.Xauthority
 ```
+
 ### sshd_config
 ```
 $ sudo vim /etc/ssh/sshd_config
 
-Port 22
-
-HostKey /etc/ssh/ssh_host_rsa_key
-HostKey /etc/ssh/ssh_host_ecdsa_key
-HostKey /etc/ssh/ssh_host_ed25519_key
-
-PubkeyAuthentication yes
-HostbasedAuthentication no
-PermitEmptyPasswords no
-ChallengeResponseAuthentication no
-UsePAM yes
 X11Forwarding yes
 X11DisplayOffset 10
 X11UseLocalhost yes
 
-PrintMotd no
-PrintLastLog yes
-TCPKeepAlive yes
-
-AcceptEnv LANG LC_*
-Subsystem       sftp    /usr/lib/openssh/sftp-server
-
 ```
-
 
 ### Putty 설정
 * Enable X11 Forwarding
