@@ -5,6 +5,10 @@
 ##### 구상중인 더 좋은 방법
 * 초기값을 선언할때, 객체 리터럴보다 함수를 통해 객체를 전달하기, 초기값 오염을 방지할수 있다.
 
+### MDN
+* https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+* https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
+
 ### stackoverflow
 * https://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript/10916838#10916838
 
