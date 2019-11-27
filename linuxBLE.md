@@ -26,3 +26,5 @@ BC:6A:29:AC:2E:B4 SensorTag
 ##### notify 데이터 수신
 * https://gist.github.com/fphammerle/d758ecf1968c0708eca66b5e9e5347d1
 * https://stackoverflow.com/questions/15657007/bluetooth-low-energy-listening-for-notifications-indications-in-linux
+
+* https://github.com/pcborenstein/bluezDoc/wiki/hcitool-and-gatttool-example
