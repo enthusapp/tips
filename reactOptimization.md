@@ -6,3 +6,8 @@ state 가 변경될때마다 랜더링이 발생한다.
 
 ##### Reference
 * https://goshakkk.name/controlled-vs-uncontrolled-inputs-react/
+
+### 불변성, 깊은 값의 수정
+
+##### Immuatable vs. Immer
+* https://www.reddit.com/r/javascript/comments/96xqnu/immer_or_immutablejs/
