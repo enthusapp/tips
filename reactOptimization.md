@@ -34,6 +34,8 @@ reducer 소스 내부에 입력 데이터 가공에 대한 코드가 들어가 �
 dispatch 할때 데이터를 전달하지 않고 updater 함수를 전달하여 reducer 에서 해당 함수를 실행하게 한다.
 각 소스간의 결합성은 줄어들고 reducer 및 상위 컴포넌트들의 형태는 입력 형태의 변화와 상관없이 그대로 유지하게 된다.
 
+하지만 입력형태와 state 변경의 연결성이 크지 않거나, state 변경의 흐름을 파악하는 것이 더 중요할때는 state 변경에 대한 내용은 reducer 소스에 있는 것이 맞다.
+
 ##### useStore.getState vs. useSelector
 useSelector 를 사용하면 state 가 바뀔때마다 rendering 을 하고, useStore.getState 를 사용하면 rendering 없이 state 만 읽어올수 있다.
 state 가 UI 를 구성하는데 쓰이지 않았다면, useStore 를 사용하는 것이 낫다.
