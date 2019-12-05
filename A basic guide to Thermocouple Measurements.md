@@ -41,3 +41,7 @@ http://www.ti.com/lit/an/sbaa274/sbaa274.pdf
 측정 규격에 따라 허용되는 오차의 범위가 달라집니다.
 
 ## Thermocouple Measurement and Cold-Junction Compensation (CJC)
+
+## Design Notes
+### Indentify the Range of Thermocouple Operation
+### Biasing the Thermocouple
