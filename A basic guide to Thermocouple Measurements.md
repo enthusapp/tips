@@ -31,5 +31,13 @@ http://www.ti.com/lit/an/sbaa274/sbaa274.pdf
 하지만 차등 신호를 이용할때 다른 접점들의 온도가 동일하다면, 추가된 접점에서 발생하는 열전대는 제거되고 측정에 영향을 주지 않습니다.
 정확한 측정을 요구하는 사용 환경에서는 사용자는 반드시 이러한 요소들을 파악하고 있어야 합니다.
 
-## 열전대 타입(Thermocouple Types)
+## Thermocouple Types
+### Thermocouple Construction
+노출형, Ground 접지형, 비 Ground 접지형의 구조가 있습니다.
+노출형이 가장 반응이 빠르고, Ground 및 다른 회로에서 발생하는 노이즈에 가장 유리합니다.
 
+### Tolerance Standards
+측정 오류 범위는 K-type 의 경우 +- 1.1, 1.5, 2.2, 2.5 도의 차이가 있을수 있습니다.
+측정 규격에 따라 허용되는 오차의 범위가 달라집니다.
+
+## Thermocouple Measurement and Cold-Junction Compensation (CJC)
