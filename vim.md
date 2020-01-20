@@ -1,7 +1,7 @@
 ### 정렬
 ```
-sort
-!sort
+:sort
+:!sort
 ```
 
 ### 찾기
