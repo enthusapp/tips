@@ -14,6 +14,13 @@ git merge branchname
 // fix conficts
 ```
 
+### delete branch
+```
+git branch --delete branchname
+git branch -D branchname  // 오류 발생할 경우 강제 삭제
+git push origin :branchname   // 삭제된 branch server 에 반영
+```
+
 ### submodule
 ##### 처음 더하기
 ```
