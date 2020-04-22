@@ -1,3 +1,19 @@
+### create branch
+```
+git branch newbranch
+git checkout newbranch
+git push origin newbranch
+```
+
+### branch merge
+```
+git checkout branchname
+git checkout master
+git merge branchname
+
+// fix conficts
+```
+
 ### submodule
 ##### 처음 더하기
 ```
