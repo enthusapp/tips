@@ -5,6 +5,11 @@ git checkout newbranch
 git push origin newbranch
 ```
 
+### delete branch
+```
+git branch -d newbranch
+```
+
 ### branch merge
 ```
 git checkout branchname
