@@ -17,3 +17,5 @@ prompt> mongo
 
 > db.<collection>.drop() // collection 전체 데이터 삭제
 ```
+
+mLab 사용
