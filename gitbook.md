@@ -8,7 +8,6 @@ npm install gitbook-cli -g // 한번도 설치한적이 없다면
 // repository 로 이동한 뒤에
 gitbook init // 처음 실행
 gitbook serve // local 에서 gitbook 테스트
-gitbook build // 작업 완료 후 gitbook 페이지 생성
 ```
 
 
@@ -34,8 +33,9 @@ gitbook build // 작업 완료 후 gitbook 페이지 생성
 
 ### publish
 ```
+$ gitbook build // 작업 완료 후 gitbook 페이지 생성
 $ git checkout gh-pages // gh-pages branch 가 없을 경우 git checkout -b gh-pages
-$ cp -R ../_book/* . // Windows 환경에서는 파일 브라우져에서 덮어쓰기 사용
+$ copy .\_book\* %cd% /y // Windows 환경, Linux 에서는 "cp -R ../_book/* ."
 $ git clean -fx _book
 $ git add .
 $ git commit -sm "upload gh-pages"
