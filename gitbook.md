@@ -44,6 +44,7 @@ $ git checkout master
 ```
 
 ### Links
+* 접히는 summary 만들기: https://www.npmjs.com/package/gitbook-plugin-expandable-chapters
 * https://blog.chulgil.me/how-to-make-blog-using-github-5/
 * https://github.com/GitbookIO/gitbook
 * https://jangbi882.gitbooks.io/gitbook-guide/content/program_account.html
