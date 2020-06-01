@@ -1,5 +1,17 @@
 # github 를 이용한 gitbook 만들기
 
+### 초기 설정
+https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md#local-installation 참조
+```
+npm install gitbook-cli -g // 한번도 설치한적이 없다면
+
+// repository 로 이동한 뒤에
+gitbook init // 처음 실행
+gitbook serve // local 에서 gitbook 테스트
+gitbook build // 작업 완료 후 gitbook 페이지 생성
+```
+
+
 ### 그림 올리기
 그림 파일을 프로젝트 폴더에 복사하고 문서에 경로 링크를 추가
 ```
