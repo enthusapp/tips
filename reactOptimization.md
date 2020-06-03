@@ -1,3 +1,6 @@
+### 
+https://create-react-app.dev/docs/deployment/
+
 ### Controlled vs. Uncontrolled components
 state 가 변경될때마다 랜더링이 발생한다.
 반드시 필요할때가 아니면 input value 에 state 를 사용하는 controlled components 를 사용할 필요가 없다.
