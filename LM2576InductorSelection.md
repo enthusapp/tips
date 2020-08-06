@@ -10,18 +10,14 @@
 LM2576 (또는 SIMPLE SWITCHER® family 의 어느 regulator 들도) 는 continuous 모드와 discontinuous 모드 둘다로 동작이 가능합니다.
 
 Figure 27 에서 Figure 31 까지 이어지는 inductor 값 선택표는 cuntinuous buck regulator 를 설계하기 위한 인덕터값을 설정할수 있게 해줍니다.
-inductor 선택
-
-The inductor value selection guides in Figure 27 through Figure 31 are designed for buck regulator designs of the continuous inductor current type.
-When using inductor values shown in the inductor selection guide,
-the peak-to-peak inductor ripple current is approximately 20% to 30% of the maximum DC current.
-With relatively heavy load currents,
-the circuit operates in the continuous mode (inductor current always flowing),
-but under light load conditions,
-the circuit is forced to the discontinuous mode (inductor current falls to zero for a period of time).
-This discontinuous mode of operation is perfectly acceptable. For light loads (less than approximately 300 mA),
-it may be desirable to operate the regulator in the discontinuous mode,
-primarily because of the lower inductor values required for the discontinuous mode.
+inductor 선택표의 inductor 를 사용할때,
+인덕터 ripple 전류의 최대-최소값은 DC 전류 최대치의 약 20 ~ 30 % 로 동작합니다.
+상대적으로 높은 전류를 공급해야 할때,
+회로는 continuous 모드(인덕터의 전류가 항상 흐르는)로 동작하지만,
+반대로 낮은 전류를 공급할때는 회로는 (인덕터의 전류가 주기적으로 0 가 되는) discontinuous 모드로 동작합니다.
+discontinuous 모드는 완벽하게 동작합니다.
+약 300 mA 이하의 낮은 전류를 공급할때 regulators 는 discontinuous 모드로 동작하는데,
+낮은 inductor 값이 필요합니다.
 
 The selection guide chooses inductor values suitable for continuous mode operation, but if the inductor value
 chosen is prohibitively high, the designer should investigate the possibility of discontinuous operation.
