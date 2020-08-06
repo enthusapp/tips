@@ -1,22 +1,27 @@
 # LM2576
 ## Application Information
 ### Inductor Selection (KR)
-All switching regulators have two basic modes of operation: continuous and discontinuous. The difference
-between the two types relates to the inductor current, whether it is flowing continuously, or if it drops to zero for a
-period of time in the normal switching cycle. Each mode has distinctively different operating characteristics,
-which can affect the regulator performance and requirements.
+모든 switching regulator 들은 continuous 와 discontinuous 의 두 가지 기본 동작 모드가 있습니다.
+두 동작 모드의 차이는 인덕터에 흐르는 전류에 있는데,
+전류가 지속적으로 흐르는지에 따라,
+또는 일반적인 switching 사이클에 0 까지 떨어지에 따라 달라집니다.
+각 모드는 특별하게 다른 동작 특성을 가지고 있어 regulator 의 성능과 요구사항에 영향을 줍니다.
 
-The LM2576 (or any of the SIMPLE SWITCHER® family can be used for both continuous and discontinuous
-modes of operation.
+LM2576 (또는 SIMPLE SWITCHER® family 의 어느 regulator 들도) 는 continuous 모드와 discontinuous 모드 둘다로 동작이 가능합니다.
 
-The inductor value selection guides in Figure 27 through Figure 31 are designed for buck regulator designs of
-the continuous inductor current type. When using inductor values shown in the inductor selection guide, the
-peak-to-peak inductor ripple current is approximately 20% to 30% of the maximum DC current. With relatively
-heavy load currents, the circuit operates in the continuous mode (inductor current always flowing), but under light
-load conditions, the circuit is forced to the discontinuous mode (inductor current falls to zero for a period of time).
-This discontinuous mode of operation is perfectly acceptable. For light loads (less than approximately 300 mA), it
-may be desirable to operate the regulator in the discontinuous mode, primarily because of the lower inductor
-values required for the discontinuous mode.
+Figure 27 에서 Figure 31 까지 이어지는 inductor 값 선택표는 cuntinuous buck regulator 를 설계하기 위한 인덕터값을 설정할수 있게 해줍니다.
+inductor 선택
+
+The inductor value selection guides in Figure 27 through Figure 31 are designed for buck regulator designs of the continuous inductor current type.
+When using inductor values shown in the inductor selection guide,
+the peak-to-peak inductor ripple current is approximately 20% to 30% of the maximum DC current.
+With relatively heavy load currents,
+the circuit operates in the continuous mode (inductor current always flowing),
+but under light load conditions,
+the circuit is forced to the discontinuous mode (inductor current falls to zero for a period of time).
+This discontinuous mode of operation is perfectly acceptable. For light loads (less than approximately 300 mA),
+it may be desirable to operate the regulator in the discontinuous mode,
+primarily because of the lower inductor values required for the discontinuous mode.
 
 The selection guide chooses inductor values suitable for continuous mode operation, but if the inductor value
 chosen is prohibitively high, the designer should investigate the possibility of discontinuous operation.
