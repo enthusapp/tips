@@ -19,24 +19,23 @@ discontinuous 모드는 완벽하게 동작합니다.
 약 300 mA 이하의 낮은 전류를 공급할때 regulators 는 discontinuous 모드로 동작하는데,
 낮은 inductor 값이 필요합니다.
 
-The selection guide chooses inductor values suitable for continuous mode operation, but if the inductor value
-chosen is prohibitively high, the designer should investigate the possibility of discontinuous operation.
+inductor 선택표는 continuous mode 동작에 적합한 inductor 값을 추천합니다.
+하지만 inductor 값을 매우 크게 선택한다면 discontinuous 동작 가능성이 있다는 점을 알아야 합니다.
 
-Inductors are available in different styles such as pot core, toriod, E-frame, bobbin core, and so on, as well as
-different core materials, such as ferrites and powdered iron. The bobbin core is the least expensive type, and
-consists of wire wrapped on a ferrite rod core. This type of construction makes for an inexpensive inductor;
-however, because the magnetic flux is not completely contained within the core, the bobbin core generates more
-electromagnetic interference (EMI). This EMI can cause problems in sensitive circuits, or can give incorrect
-scope readings because of induced voltages in the scope probe.
+인덕터들은 pot core 에 따라서 달라질수 있습니다.
+E-frame, bobbin core, 등등이 철 또는 powdered iron 같은 코어 물질에 따라 다르게 정의됩니다.
+bobbin core 는 가장 싼 형태로 ferrite rod core 를 와이어로 감싼 형태입니다.
+하지만 magnetic flux 가 완전인 core 안에 담기지 않기 때문에 EMI 를 더 많이 발생시킵니다.
+EMI 는 민감한 회로에 문제를 발생시키거나 유도 전압으로 인해 오실로스코프의 프로브에 잘못된 값이 읽히게 합니다.
 
-The inductors listed in the selection chart include ferrite pot core construction for AIE, powdered iron toroid for
-Pulse Engineering, and ferrite bobbin core for Renco.
+인덕터 선택표에 있는 인덕터에는 AIE, powdered iron toroid, ferrite bobbin core 등이 사용되었습니다.
 
-An inductor must not operate beyond its maximum-rated current because it may saturate. When an inductor
-begins to saturate, the inductance decreases rapidly, and the inductor begins to look mainly resistive (the DC
-resistance of the winding), causing the switch current to rise very rapidly. Different inductor types have different
-saturation characteristics, and this must be considered when selecting an inductor.
-The inductor manufacturer's data sheets include current and energy limits to avoid inductor saturation.
+인덕터는 반드시 최대 전류 이상으로 동작되서는 안됩니다. saturation 을 발생시키기 때문입니다.
+인덕터가 statation 되면,
+인덕턴스가 빠르게 감소하고,
+인덕터는 저항처럼 동작하여 switching 전류가 매우 빠르게 증가하게 됩니다.
+인덕터 타입에 따라 saturation 특성이 다르기 때문에 인덕터를 선택할때 반드시 고려되어야 합니다.
+인덕터 제조사들은 데이터 시트에 saturation 을 피하기 위한 전류와 전력에 대한 한계를 명시하고 있습니다.
 
 ### Inductor Selection
 All switching regulators have two basic modes of operation: continuous and discontinuous. The difference
