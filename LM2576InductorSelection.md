@@ -99,5 +99,8 @@ Any buck switching regulator (no matter how large the inductor value is) is forc
 current is light enough.
 
 # Buck Regulator Inductor selection
+## References
 * https://www.ti.com/lit/an/snva038b/snva038b.pdf?ts=1596762346529&ref_url=https%253A%252F%252Fwww.google.com%252F
 * https://passive-components.eu/how-to-choose-the-right-inductor-for-dc-dc-buck-applications/
+* https://techweb.rohm.co.kr/tech-info/engineer/2789
+* https://product.tdk.com/info/en/products/capacitor/ceramic/mlcc/technote/solution/mlcc03/index.html
