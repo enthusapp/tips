@@ -75,16 +75,16 @@ saturation characteristics, and this must be considered when selecting an induct
 The inductor manufacturer's data sheets include current and energy limits to avoid inductor saturation.
 
 ### Inductor Ripple Current (KR)
-When the switcher is operating in the continuous mode, the inductor current waveform ranges from a triangular
-to a sawtooth type of waveform (depending on the input voltage). For a given input voltage and output voltage,
-the peak-to-peak amplitude of this inductor current waveform remains constant. As the load current rises or falls,
-the entire sawtooth current waveform also rises or falls. The average DC value of this waveform is equal to the
-DC load current (in the buck regulator configuration).
+레귤레이터가 continous mode 로 동작하면,
+인덕터 전류는 삼각 톱날 모양의 전류 파형으로 나타나게 됩니다.
+정해진 입력 / 출력 전압이 있을때 인덕터 전류 파형의 최대 / 최소 크기는 고정적입니다.
+출력 전류가 증가하고 줄어드는것에 따라 톱날 파형 전류의 전체 크기도 증가하고 줄어듭니다.
+인덕터 파형의 DC 평균값은 출력 전류의 DC 평균값과 동일합니다.
 
-If the load current drops to a low enough level, the bottom of the sawtooth current waveform reaches zero, and
-the switcher changes to a discontinuous mode of operation. This is a perfectly acceptable mode of operation.
-Any buck switching regulator (no matter how large the inductor value is) is forced to run discontinuous if the load
-current is light enough.
+만약 출력 전류가 충분히 낮아지게 되면 톱날 파형의 전류도 0 까지 도달하게 됩니다.
+그리고 레귤레이터는 discontinuous 모드로 동작하게 됩니다.
+이것은 완전히 적합한 동작입니다.
+모든 buck switching 레귤레이터들은 출력 전류가 충분히 낮아지면 discontinuous 모드로 동작하도록 되어 있습니다.
 
 ### Inductor Ripple Current
 When the switcher is operating in the continuous mode, the inductor current waveform ranges from a triangular
@@ -97,3 +97,7 @@ If the load current drops to a low enough level, the bottom of the sawtooth curr
 the switcher changes to a discontinuous mode of operation. This is a perfectly acceptable mode of operation.
 Any buck switching regulator (no matter how large the inductor value is) is forced to run discontinuous if the load
 current is light enough.
+
+# Buck Regulator Inductor selection
+* https://www.ti.com/lit/an/snva038b/snva038b.pdf?ts=1596762346529&ref_url=https%253A%252F%252Fwww.google.com%252F
+* https://passive-components.eu/how-to-choose-the-right-inductor-for-dc-dc-buck-applications/
