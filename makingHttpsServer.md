@@ -4,3 +4,7 @@
 * [ ] PC 브라우저에서 HTTPS 프로토콜로 Raspberry Pi server 접속
 * [ ] Android 브라우저에서 HTTPS 프로토콜로 Raspberry Pi server 접속
 * [ ] iOS 브라우저에서 HTTPS 프로토콜로 Raspberry Pi server 접속
+## HTTPS Server 가 필요한 이유
+### Mixed contents error & Serverless
+Android, iOS 앱에서 http 로의 접속이 제한되고 있다.
+IoT https 서버를 사용하는 데에는 사용 비용과 구현에 대한 시간 및 노력이 필요하다.
