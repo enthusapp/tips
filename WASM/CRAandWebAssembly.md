@@ -2,11 +2,15 @@
 CRA(Create React App) 에 wasm 으로 c 코드를 사용하는 방법을 간단하게 정리하고자 한다.
 
 ## CRA
+CRA 생성
+
 ```bash
 $ yarn create react-app wasm
 ```
 
-## Emscripten 빌드
+## Emscripten
+### Emscripten 설치
+### Emscripten 을 이용한 C 코드 빌드
 
 ## CRA 의 MIME type 에 wasm 을 추가하기
 
