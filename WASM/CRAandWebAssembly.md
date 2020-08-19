@@ -8,13 +8,23 @@ CRA 생성
 $ yarn create react-app wasm
 ```
 
-## Emscripten
+## CRA 의 MIME type 에 wasm 을 추가
+서버의 MIME type 에 application/wasm 을 추가해야 에러 발생하지 않음
+
+webpack5 에서 wasm 의 MIME type 지원이 `experimental` 로 구분되어 있기 때문에 CRA 에 기본설정으로 추가되어 있지 않음
+
+CRA 에 MIME type 을 추가하려면 `npm eject` 를 한뒤에 webpack.config 를 수정해야 한다.
+
+ejce
+
+## Emscripten 을 이용하여 C → WASM 만들기
+Emscripten 은 C/C++ 을 WASM 으로 빌드하는 툴
+
 ### Emscripten 설치
-### Emscripten 을 이용한 C 코드 빌드
-
-## CRA 의 MIME type 에 wasm 을 추가하기
-
-## Emscripten 결과물 수정
+### Emscripten C 빌드
+#### 데이터 입출력 함수 만들기
+#### wasm 파일을 public 폴더로 이동시키기
+#### binding js 파일 수정하기
 
 ## Reference
 * [전체 소스](https://github.com/mallamhando/CRA_C_WebAssembly)
