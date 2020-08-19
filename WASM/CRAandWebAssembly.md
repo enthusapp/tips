@@ -13,7 +13,7 @@ $ yarn create react-app wasm
 ## Emscripten 결과물 수정
 
 ## Reference
-* [전체 소스](https://github.com/mallamhando/CRA_C_WebAssembly.git)
+* [전체 소스](https://github.com/mallamhando/CRA_C_WebAssembly)
 * [CRA 에서 wasm 적용하기](https://medium.com/@marvinirwin/webassembly-react-and-create-react-app-8b73346c9b65)
 * [CRA Webpack 설정 바꾸기](https://medium.com/@jsh901220/create-react-app%EC%97%90%EC%84%9C-eject%EC%82%AC%EC%9A%A9%EC%95%88%ED%95%98%EA%B8%B0-customize-cra-react-app-rewired-10a83522ace0)
 * [C WASM 과 Javascript 사이에서 데이터 주고 받기](https://github.com/3dgen/cppwasm-book/blob/master/en/ch2-c-js/ch2-04-data-exchange.md)
