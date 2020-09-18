@@ -26,6 +26,11 @@ git branch -D branchname  // 오류 발생할 경우 강제 삭제
 git push origin :branchname   // 삭제된 branch server 에 반영
 ```
 
+### 이전 commit 으로 돌아가기
+```
+git reset HEAD~1 // 1 commit 돌아가기
+```
+
 ### submodule
 ##### 처음 더하기
 ```
