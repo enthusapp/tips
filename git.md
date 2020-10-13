@@ -1,3 +1,8 @@
+### 특정 파일 checkout
+```
+git checkout <branch> filePath
+```
+
 ### create branch
 ```
 git branch newbranch
