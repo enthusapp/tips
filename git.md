@@ -1,3 +1,6 @@
+### tag 관리
+http://minsone.github.io/git/git-addtion-and-modified-delete-tag
+
 ### 특정 파일 checkout
 ```
 git checkout <branch> filePath
