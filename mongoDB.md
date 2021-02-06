@@ -1,7 +1,12 @@
-# mongoDB 의 데이터를 수동으로 수정하고 싶을때
-### mongoDB compass 사용
+# mongoDB Tips
+## CreateIndex 안되는 경우
+이미 입력되어 있는 데이터가 createIndex 조건에 맞지 않으면 index 동작이 수행되지 않는다.
+이전 데이터를 수정하거나 drop 한뒤에 createIndex 를 해야 한다.
 
-### mongoDB CLI 사용
+## 데이터 수동으로 수정
+### mongoDB compass
+
+### mongoDB CLI
 * https://docs.mongodb.com/manual/reference/mongo-shell/
 ```
 prompt> mongo
