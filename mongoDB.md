@@ -21,6 +21,9 @@ prompt> mongo
 ...
 
 > db.<collection>.drop() // collection 전체 데이터 삭제
+ 
+
+> db.<collection>.remove({"sensorID": "1234"}) // sensorID 가 1234 인 데이터 전체 삭제
 ```
 
 mLab 사용
