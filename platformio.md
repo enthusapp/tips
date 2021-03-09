@@ -1,4 +1,4 @@
-# VSCode PlatfomrIO 사용법
+# VSCode PlatfomIO 사용법
 ## 단축키
 * https://docs.platformio.org/en/latest/integration/ide/vscode.html#key-bindings
 * `ctrl+alt+b` / `cmd-shift-b` / `ctrl-shift-b` Build Project
