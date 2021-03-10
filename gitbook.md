@@ -63,7 +63,7 @@ gitbook serve
 gitbook build
 git checkout gh-pages
 git pull origin gh-pages
-xcopy .\_book\* . /y /s /e // windows cmd 는 xcopy .\_book\* %cd% /y /s /e
+xcopy .\_book\* . /y /s /e // windows cmd 는 xcopy .\_book\* %cd% /y /s /e linux 
 git clean -fx _book
 git add .
 git commit -sm "upload gh-pages"
