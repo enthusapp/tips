@@ -47,6 +47,12 @@ $ git submodule add <repository> [path]
 ##### 최신 버젼으로 받기
 서브 모듈의 path 로 들어가 `git pull`
 
+##### clone 이후 첫 pull
+```
+git submodule init
+git submodule update
+```
+
 ##### Reference
 * https://ohgyun.com/711
 * https://feel5ny.github.io/2019/01/27/Git_01/
